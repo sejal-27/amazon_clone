@@ -3,6 +3,9 @@
   font-family: Arial;
   border: border-box;
 }
+body{
+    background-color: rgb(253, 207, 0);
+}
 .navbar {
   height: 60px;
   background-color: #0f1111;
@@ -192,9 +195,10 @@
 }
 /* boxes */
 .shop-section{
+    margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(236, 236, 31);
+    background-color:  rgb(253, 207, 0);
 }
 .box{
     height:310px;
@@ -265,4 +269,79 @@
     margin-left: 100px;
 
 
+}
+/* footer */
+.footer-1{
+    height: 50px;
+    width: 100%;
+    background-color: #192635;
+    margin-top: 10px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.footer-1 a{
+     font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.footer-2{
+    background-color: #262a38;
+    display: flex;
+    height: 250px;
+    justify-content: space-evenly;
+}
+.footer-2 ul{
+    margin-top: 20px;
+    display: block;
+    font-size: 14px;
+    color: #dddddd;
+    line-height: 25px;
+}
+.footer-2 ul:hover{
+    text-decoration: underline;
+}
+.footer-2 span{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.footer-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262a38
+}
+.footer-3logo img{
+    height:68px;
+    width:90.38;
+    margin-right: 15px;
+}
+.footer-3sub{
+    display: flex;
+    align-items: center;
+    border: 0.5px solid white;
+    border-radius: 3px;
+    height: 35px;
+    width: 115px;
+    margin-left: 20px;
+    color: #cccccc;
+    font-size: 13px;
+    justify-content: center;
+}
+.footer-3sub i{
+    height: 15px;
+    width:15px;
+}
+.footer-4{
+    font-size: 12px;
+    color: #dddddd;
+    background-color: #131a22;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    
 }
