@@ -4,7 +4,7 @@
   border: border-box;
 }
 body{
-    background-color: rgb(253, 207, 0);
+    background-image:linear-gradient(rgb(255, 230, 0),white)
 }
 .navbar {
   height: 60px;
@@ -198,7 +198,6 @@ body{
     margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
-    background-color:  rgb(253, 207, 0);
 }
 .box{
     height:310px;
